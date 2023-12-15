@@ -1,0 +1,120 @@
+body {
+    background-color: bisque;
+}
+
+header {
+    background-image: url(../imgs/background.png);
+    height: 500px;
+}
+
+.grandtheftauto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.grandtheftauto img {
+    max-width: 100%; /* A kép maximális szélessége 100% lesz a konténer méretéhez képest */
+    height: auto; /* A magasságot az arányok megtartása érdekében automatikusan számolja ki */
+}
+
+.VI {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    margin: auto; /* Hozzáadott tulajdonság a vízszintes középre igazításhoz */
+}
+
+.letsgo {
+    display: flex;
+    height: auto;
+    margin: auto; /* Hozzáadott tulajdonság a vízszintes középre igazításhoz */
+    color: rgb(112, 63, 0);
+    margin-top: 100px;
+}
+
+h1 {
+    font-family: 'Wellfleet';
+    text-align: center;
+    margin: 10px 0;
+    width: auto;
+}
+
+h2 {
+    font-family: 'Indie Flower';
+    text-align: center;
+    margin: 10px 0;
+    width: auto;
+}
+
+p {
+    font-family: 'Nova Square';
+}
+
+.video {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.navv {
+    background-color:rgb(127, 98, 54) !important
+}
+
+.navva {
+    color: black !important;
+}
+
+#elnok {
+    color: darkred;
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+hr {
+    border: 3px solid rgb(107, 67, 67);
+}
+
+.col {
+    margin-bottom: 10px;
+}
+
+.rolampadding {
+    margin: 10px 15px;
+}
+
+.navbar-brand{
+    color: rgb(231, 172, 104) !important;
+    font-weight: bold;
+}
+
+.slider {
+background-image: url(../imgs/talan5.jpg);
+height: 300px;
+}
+
+#kritikak {
+    font-size: 55px;
+    color: rgb(91, 88, 107);
+}
+
+#bunozokfelirat{
+    font-size: 45px;
+}
+
+/*.elsodoboz {
+    border: 0.5px solid rgb(92, 51, 106);
+}
+
+.masodikdoboz{
+    border: 0.5px solid rgb(92, 51, 106);
+}
+*/
+#idezet {
+    font-size: 1.2rem;
+}
